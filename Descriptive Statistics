@@ -1,0 +1,18 @@
+# Basic descriptive statistics for rental duration, rental rate, film length and replacement cost
+
+SELECT MIN (rental_duration) AS min_duration,				
+	   MAX (rental_duration) AS max_duration,			
+	   AVG (rental_duration) AS avg_duration,			
+	   COUNT (rental_duration) AS count_duration_values,			
+	   MIN (rental_rate) AS min_rent,			
+	   MAX (rental_rate) AS max_rent,			
+	   AVG (rental_rate) AS avg_rent,			
+	   COUNT (rental_rate) AS count_rent_values,			
+	   MIN (length) AS min_length,			
+	   MAX (length) AS max_length,			
+	   AVG (length) AS avg_length,			
+	   COUNT (length) AS count_length_values,			
+	   MIN (replacement_cost) AS min_cost,			
+	   MAX (replacement_cost) AS max_cost,			
+	   AVG (replacement_cost) AS avg_cost,			
+	   COUNT (replacement_cost) AS count_cost_values			
