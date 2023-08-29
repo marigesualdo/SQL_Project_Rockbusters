@@ -15,4 +15,5 @@ SELECT MIN (rental_duration) AS min_duration,
 	   MIN (replacement_cost) AS min_cost,			
 	   MAX (replacement_cost) AS max_cost,			
 	   AVG (replacement_cost) AS avg_cost,			
-	   COUNT (replacement_cost) AS count_cost_values			
+	   COUNT (replacement_cost) AS count_cost_values
+FROM Film
