@@ -1,0 +1,44 @@
+# Here there are 2 SQL queries with commom table expressions:
+
+## The 10 Best Revenue Films:
+
+WITH film_category_cte (amount, film_id, film_category) AS							
+(SELECT A.amount,							
+		C.film_id,					
+		E.name AS film_category					
+FROM payment A							
+INNER JOIN rental B ON A.customer_id = B. customer_id 							
+INNER JOIN inventory C ON B.inventory_id = C.inventory_id							
+INNER JOIN film_category D ON C.film_id = D.film_id							
+INNER JOIN category E ON D.category_id = E.category_id)							
+							
+SELECT SUM (i.amount) AS total_title_amount, i.film_id, i.film_category, f.title, f.rating FROM  film_category_cte AS i							
+INNER JOIN film AS f 							
+ON i.film_id = f.film_id							
+							
+GROUP BY i.amount, i.film_id, i.film_category, f.title, f.rating							
+ORDER BY total_title_amount desc							
+LIMIT 10					
+
+## The 10 Worst Revenue Films
+
+WITH film_category_cte (amount, film_id, film_category) AS										
+(SELECT A.amount,										
+		C.film_id,								
+		E.name AS film_category								
+FROM payment A										
+INNER JOIN rental B ON A.customer_id = B. customer_id 										
+INNER JOIN inventory C ON B.inventory_id = C.inventory_id										
+INNER JOIN film_category D ON C.film_id = D.film_id										
+INNER JOIN category E ON D.category_id = E.category_id)										
+										
+SELECT SUM (i.amount) AS total_title_amount, i.film_id, i.film_category, f.title, f.rating FROM  film_category_cte AS i										
+INNER JOIN film AS f 										
+ON i.film_id = f.film_id										
+										
+GROUP BY i.amount, i.film_id, i.film_category, f.title, f.rating										
+ORDER BY total_title_amount asc										
+LIMIT 1000										
+
+
+
