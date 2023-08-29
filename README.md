@@ -14,7 +14,15 @@ The project has 3 main files: A data dictionary with an ERD table and all tables
                               An excel archive with all codes used in SQL to compute the database.
 
 Link to Tableau visualizations: 
-10 best revenue movies: [(https://public.tableau.com/views/rockbuster2/Planilha1?:language=en-US&:display_count=n&:origin=viz_share_link)]
-Revenue by movie gender: [(https://public.tableau.com/views/rockbuster_16893451009740/Painel1?:language=en-US&:display_count=n&:origin=viz_share_link)]
-Revenue by region: [(https://public.tableau.com/views/revenueregion_16895912339490/Painel1?:language=en-US&:display_count=n&:origin=viz_share_link)]
-Customers by country: [(https://public.tableau.com/views/rockbustercustomersbycountry/Painel2?:language=en-US&:display_count=n&:origin=viz_share_link)]
+
+10 best revenue movies: 
+[(https://public.tableau.com/views/rockbuster2/Planilha1?:language=en-US&:display_count=n&:origin=viz_share_link)]
+
+Revenue by movie gender: 
+[(https://public.tableau.com/views/rockbuster_16893451009740/Painel1?:language=en-US&:display_count=n&:origin=viz_share_link)]
+
+Revenue by region: 
+[(https://public.tableau.com/views/revenueregion_16895912339490/Painel1?:language=en-US&:display_count=n&:origin=viz_share_link)]
+
+Customers by country: 
+[(https://public.tableau.com/views/rockbustercustomersbycountry/Painel2?:language=en-US&:display_count=n&:origin=viz_share_link)]
