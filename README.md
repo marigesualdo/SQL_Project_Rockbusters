@@ -1,4 +1,4 @@
-# SQL Project Rockbuster Stealth gmbh
+# SQL Project Rockbuster Stealth LLC
 
 <img src="Picture1.png">
 
