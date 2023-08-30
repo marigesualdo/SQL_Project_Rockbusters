@@ -1,6 +1,6 @@
 # SQL Project Rockbuster Stealth gmbh
 
-<img src="picture1.png">
+<img src="Picture1.png">
 
 ## Description
 
