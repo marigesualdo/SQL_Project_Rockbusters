@@ -1,4 +1,7 @@
 # SQL Project Rockbuster Stealth gmbh
+
+<img src="picture1.png">
+
 ## Description
 
 This presentation was made for the company Rockbuster Stealth LLC, a movie rental company that used to have stores around the world. 
